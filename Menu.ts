@@ -1,5 +1,6 @@
 import readlinesync = require("readline-sync");
 
+
 export function main() {
     
     let opcao: number;
@@ -84,6 +85,11 @@ export function sobre(): void {
     console.log("Mayara de Oliveira - mayaraolive00@gmail.com");
     console.log("github.com/MayaraOliveir");
     console.log("*****************************************************");
+}
+function keyPress(): void {
+   
+    console.log("\nPressione enter para continuar...");
+    readlinesync.prompt();
 }
 
 main();
